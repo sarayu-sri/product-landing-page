@@ -1,0 +1,190 @@
+#header-img {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    background: url(hero-image.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.nav-link {
+    margin-left: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: 'Handlee', cursive;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(51, 126, 70);
+}
+
+img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    position: relative;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    justify-content: flex;
+    font-weight: 700px;
+}
+
+.container h1 {
+    font-size: 98px;
+    color: teal;
+    margin: 0;
+    font-family: 'Lovers Quarrel', cursive;
+    margin-top: 90px;
+}
+
+h4 {
+    color: palevioletred;
+    font-family: 'Handlee', cursive;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+#form {
+    margin-top: 85px;
+    
+}
+
+input[type="email" i] {
+    padding: 2px 6px 2px 6px;
+    width: 400px;
+}
+
+#button {
+    background-color: palevioletred;
+    margin-top: 30px;
+    width: fit-content;
+    border-radius: 3px;
+}
+
+@media (max-width: 575px) {
+    .container {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 435px) {
+    .container h1 {
+        font-size: 78px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    input[type="email" i] {
+        width: 200px;
+    }
+}
+
+#quote {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Handlee', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: palevioletred;
+}
+
+strong {
+    color: teal;
+}
+
+.headings {
+    text-align: center;
+    display: flexbox;
+    font-family: 'Handlee', cursive;
+}
+
+h2 {
+    color: teal;
+    text-decoration-line: underline;
+}
+
+p {
+    color: palevioletred;
+}
+
+hr {
+    color: teal;
+}
+
+#making {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+#making > iframe {
+    max-width: 560px;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+
+
+.card-img-top {
+    height: 250px;
+}
+
+.card {
+    margin-top: 30px;
+    font-family: 'Handlee', cursive;
+}
+
+.card-title {
+    color: teal;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: teal;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+  
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+  
+footer > ul > li {
+    padding: 0 10px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: palevioletred;
+    text-decoration: none;
+}
+  
+li {
+    color: teal;
+}
+
+footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: palevioletred;
+    font-weight: 600;
+}
+  
